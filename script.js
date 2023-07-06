@@ -35,7 +35,7 @@ tipButtons.forEach((btn)=>{
         })
         e.target.classList.add('active')
         if (totalPeople.value===''||'0') {
-            totalPeople.value='1'
+            //totalPeople.value='1'
             //error1.style.display="block"
             calculateTip()
         }

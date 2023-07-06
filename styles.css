@@ -84,9 +84,19 @@ body{
      background-color: #c5e4e7;
     color: #00494d;
 }
-.tip-btn:hover{
+.active{
     background-color: #26c0ab;
     color: #00494d;
+}
+
+.infotext{
+    display:flex;
+    justify-content: space-between;
+}
+
+.infotext .errors{
+    display: none;
+    color: #ff0000;
 }
 
 .result{
